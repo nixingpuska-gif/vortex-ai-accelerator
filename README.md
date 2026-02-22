@@ -23,9 +23,14 @@ MVP target: Q3 2026
 Read [MANIFESTO.md](./MANIFESTO.md)
 
 ## Repository layout
-- `docs/architecture-overview.md` - high-level architecture concept
+- `PRIOR_ART.md` - legal timestamp and disclosed-idea list
+- `docs/architecture.md` - public architecture summary
+- `docs/architecture-overview.md` - extended high-level architecture concept
 - `docs/problem-statement.md` - why market concentration blocks AI access
+- `docs/comparison-nvidia.md` - comparative economics snapshot with charts
+- `docs/roadmap.md` - staged roadmap
 - `docs/prior-art-notice.md` - public timestamp and scope of disclosure
+- `docs/prior-art-posts-2026-02-22.md` - ready-to-publish post drafts
 - `concept/node-topology.md` - node topology in words
 - `concept/memory-bridge-concept.md` - conceptual FPGA bridge model
 - `concept/fabric-topology.md` - 8+1 fabric topology concept
