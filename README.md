@@ -4,46 +4,29 @@
 > "The most advanced AI clusters costing $40,000 per board
 > should cost $1,000-2,000. This is arithmetic, not fantasy."
 
-## Manifesto (Pinned)
-- 🇷🇺 Russian: [MANIFESTO.ru.md](./MANIFESTO.ru.md)
+## Main Manifesto
+- 🇷🇺 Primary: [MANIFESTO.ru.md](./MANIFESTO.ru.md)
 - 🇬🇧 English: [MANIFESTO.md](./MANIFESTO.md)
 
-## What is this?
-An open hardware architecture concept for rack-scale AI inference clusters
-that targets performance classes associated with NVIDIA DGX-style systems
-at 10-40x lower cost per GB of AI memory.
+The Russian manifesto is the primary narrative page of this repository.
 
-## Key innovations (Prior Art - February 22, 2026)
-- FPGA-based GDDR6X-to-DDR5 memory bridge (Bank Switching)
-- 600GB+ effective VRAM per GPU node via server DDR5
-- PCIe Gen5 + CXL 3.0 fabric (open alternative to proprietary interconnect stacks)
-- Full-coverage copper cold plate thermal management
-- Plug-and-play cluster management (Web GUI)
+## Project Snapshot
+An open hardware architecture concept for rack-scale AI inference clusters targeting DGX-class performance envelopes at significantly lower memory cost.
 
-## Status: Architecture Design Phase
-MVP target: Q3 2026
-
-## Why open source?
-See the manifesto (pinned above) for philosophy and disclosure strategy.
-
-## Repository layout
-- `PRIOR_ART.md` - legal timestamp and disclosed-idea list
+## Core References
 - `docs/architecture.md` - public architecture summary
-- `docs/architecture-overview.md` - extended high-level architecture concept
-- `docs/problem-statement.md` - why market concentration blocks AI access
-- `docs/comparison-nvidia.md` - comparative economics snapshot with charts
-- `docs/roadmap.md` - staged roadmap
-- `docs/prior-art-notice.md` - public timestamp and scope of disclosure
-- `docs/prior-art-posts-2026-02-22.md` - ready-to-publish post drafts
-- `concept/node-topology.md` - node topology in words
-- `concept/memory-bridge-concept.md` - conceptual FPGA bridge model
-- `concept/fabric-topology.md` - 8+1 fabric topology concept
+- `docs/architecture-overview.md` - extended architecture concept
+- `docs/problem-statement.md` - market and access problem framing
+- `docs/comparison-nvidia.md` - comparison tables and charts
+- `docs/roadmap.md` - staged development roadmap
+- `PRIOR_ART.md` - dated prior-art record
+- `docs/prior-art-notice.md` - publication scope and timestamp
+- `concept/node-topology.md` - node composition concept
+- `concept/memory-bridge-concept.md` - memory-bridge model
+- `concept/fabric-topology.md` - cluster fabric topology concept
 
-## Disclosure boundary (current stage)
-This repository intentionally excludes implementation-sensitive details such as:
-- HDL/Verilog source
-- exact part numbers and board routing files
-- firmware flashing workflows
-- full BOM and procurement strategy
+## Current Stage
+Architecture Design Phase (MVP path in progress)
 
-Those details are planned for staged release after MVP milestones.
+## Disclosure Boundary
+This repository intentionally excludes implementation-sensitive details such as HDL/RTL, board-level implementation files, full BOM, and firmware internals at this stage.
