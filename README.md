@@ -4,6 +4,10 @@
 > "The most advanced AI clusters costing $40,000 per board
 > should cost $1,000-2,000. This is arithmetic, not fantasy."
 
+## Manifesto (Pinned)
+- 🇷🇺 Russian: [MANIFESTO.ru.md](./MANIFESTO.ru.md)
+- 🇬🇧 English: [MANIFESTO.md](./MANIFESTO.md)
+
 ## What is this?
 An open hardware architecture concept for rack-scale AI inference clusters
 that targets performance classes associated with NVIDIA DGX-style systems
@@ -20,7 +24,7 @@ at 10-40x lower cost per GB of AI memory.
 MVP target: Q3 2026
 
 ## Why open source?
-Read [MANIFESTO.md](./MANIFESTO.md)
+See the manifesto (pinned above) for philosophy and disclosure strategy.
 
 ## Repository layout
 - `PRIOR_ART.md` - legal timestamp and disclosed-idea list
